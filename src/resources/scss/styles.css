@@ -1,0 +1,187 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pavlo\/Desktop\/filmsApp\/my-app\/src\/resources\/scss\/styles\.scss}line{font-family:\000031}}
+* {
+  font-family: Poppins, sans-serif;
+  margin: 0;
+  padding: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pavlo\/Desktop\/filmsApp\/my-app\/src\/resources\/scss\/styles\.scss}line{font-family:\000036}}
+body, html {
+  margin: 0 !important;
+  height: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pavlo\/Desktop\/filmsApp\/my-app\/src\/resources\/scss\/styles\.scss}line{font-family:\000039}}
+  body #root, html #root {
+    background-image: url(../images/bg.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pavlo\/Desktop\/filmsApp\/my-app\/src\/resources\/scss\/styles\.scss}line{font-family:\0000318}}
+    body #root .App .header-wrapper .header-back, html #root .App .header-wrapper .header-back {
+      filter: blur(8px);
+      -webkit-filter: blur(8px); }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pavlo\/Desktop\/filmsApp\/my-app\/src\/resources\/scss\/styles\.scss}line{font-family:\0000323}}
+    body #root .App .header-wrapper header .sideMenu-Toolbar, html #root .App .header-wrapper header .sideMenu-Toolbar {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pavlo\/Desktop\/filmsApp\/my-app\/src\/resources\/scss\/styles\.scss}line{font-family:\0000325}}
+      body #root .App .header-wrapper header .sideMenu-Toolbar .sideMenu_icon-wrapper, html #root .App .header-wrapper header .sideMenu-Toolbar .sideMenu_icon-wrapper {
+        display: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pavlo\/Desktop\/filmsApp\/my-app\/src\/resources\/scss\/styles\.scss}line{font-family:\0000328}}
+        body #root .App .header-wrapper header .sideMenu-Toolbar .sideMenu_icon-wrapper button .menu-icons, html #root .App .header-wrapper header .sideMenu-Toolbar .sideMenu_icon-wrapper button .menu-icons {
+          width: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pavlo\/Desktop\/filmsApp\/my-app\/src\/resources\/scss\/styles\.scss}line{font-family:\0000333}}
+      body #root .App .header-wrapper header .sideMenu-Toolbar .input-search_icon-wrapper, html #root .App .header-wrapper header .sideMenu-Toolbar .input-search_icon-wrapper {
+        -webkit-box-flex: 3;
+            -ms-flex-positive: 3;
+                flex-grow: 3;
+        padding: 20px;
+        position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pavlo\/Desktop\/filmsApp\/my-app\/src\/resources\/scss\/styles\.scss}line{font-family:\0000337}}
+        body #root .App .header-wrapper header .sideMenu-Toolbar .input-search_icon-wrapper img, html #root .App .header-wrapper header .sideMenu-Toolbar .input-search_icon-wrapper img {
+          opacity: .4;
+          width: 16px;
+          position: absolute;
+          bottom: 33px;
+          padding: 0 13px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pavlo\/Desktop\/filmsApp\/my-app\/src\/resources\/scss\/styles\.scss}line{font-family:\0000344}}
+        body #root .App .header-wrapper header .sideMenu-Toolbar .input-search_icon-wrapper div, html #root .App .header-wrapper header .sideMenu-Toolbar .input-search_icon-wrapper div {
+          padding: 4px 40px;
+          color: #fff;
+          background-color: rgba(0, 0, 0, 0.2); }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pavlo\/Desktop\/filmsApp\/my-app\/src\/resources\/scss\/styles\.scss}line{font-family:\0000350}}
+      body #root .App .header-wrapper header .sideMenu-Toolbar .main-header-wrapper, html #root .App .header-wrapper header .sideMenu-Toolbar .main-header-wrapper {
+        -webkit-box-flex: 3;
+            -ms-flex-positive: 3;
+                flex-grow: 3; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pavlo\/Desktop\/filmsApp\/my-app\/src\/resources\/scss\/styles\.scss}line{font-family:\0000352}}
+        body #root .App .header-wrapper header .sideMenu-Toolbar .main-header-wrapper .main-header, html #root .App .header-wrapper header .sideMenu-Toolbar .main-header-wrapper .main-header {
+          font-size: 20px;
+          font-weight: bold;
+          color: #252837; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pavlo\/Desktop\/filmsApp\/my-app\/src\/resources\/scss\/styles\.scss}line{font-family:\0000358}}
+      body #root .App .header-wrapper header .sideMenu-Toolbar .button-login-register_button-wrapper, html #root .App .header-wrapper header .sideMenu-Toolbar .button-login-register_button-wrapper {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: end;
+            -ms-flex-pack: end;
+                justify-content: flex-end;
+        -webkit-box-flex: 1;
+            -ms-flex: 1;
+                flex: 1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pavlo\/Desktop\/filmsApp\/my-app\/src\/resources\/scss\/styles\.scss}line{font-family:\0000362}}
+        body #root .App .header-wrapper header .sideMenu-Toolbar .button-login-register_button-wrapper .login-button, html #root .App .header-wrapper header .sideMenu-Toolbar .button-login-register_button-wrapper .login-button {
+          min-width: 120px;
+          min-height: 40px;
+          margin: 0 5px;
+          color: #252837;
+          background-color: #ffef02; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pavlo\/Desktop\/filmsApp\/my-app\/src\/resources\/scss\/styles\.scss}line{font-family:\0000370}}
+        body #root .App .header-wrapper header .sideMenu-Toolbar .button-login-register_button-wrapper .register-button, html #root .App .header-wrapper header .sideMenu-Toolbar .button-login-register_button-wrapper .register-button {
+          min-width: 120px;
+          min-height: 40px;
+          margin: 0 5px;
+          color: #fff;
+          background-color: #252837; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pavlo\/Desktop\/filmsApp\/my-app\/src\/resources\/scss\/styles\.scss}line{font-family:\0000381}}
+    body #root .App .series, html #root .App .series {
+      width: 90vw;
+      height: 600px;
+      margin: 30px auto 0 auto;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      overflow-y: scroll;
+      overflow-x: hidden;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pavlo\/Desktop\/filmsApp\/my-app\/src\/resources\/scss\/styles\.scss}line{font-family:\0000391}}
+      body #root .App .series .GOT, html #root .App .series .GOT {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        width: 250px;
+        height: 230px;
+        margin: 30px 10px 0 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pavlo\/Desktop\/filmsApp\/my-app\/src\/resources\/scss\/styles\.scss}line{font-family:\0000398}}
+        body #root .App .series .GOT img, html #root .App .series .GOT img {
+          width: 250px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pavlo\/Desktop\/filmsApp\/my-app\/src\/resources\/scss\/styles\.scss}line{font-family:\00003101}}
+        body #root .App .series .GOT .gotInfo, html #root .App .series .GOT .gotInfo {
+          position: relative;
+          top: 3px;
+          border-radius: 0 0 10px 10px;
+          height: 100%;
+          width: 100%;
+          background-color: rgba(15, 16, 22, 0.5);
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+              -ms-flex-direction: column;
+                  flex-direction: column; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pavlo\/Desktop\/filmsApp\/my-app\/src\/resources\/scss\/styles\.scss}line{font-family:\00003110}}
+          body #root .App .series .GOT .gotInfo .gotInfo_header, html #root .App .series .GOT .gotInfo .gotInfo_header {
+            font-weight: bold;
+            font-size: 20px;
+            color: #fff;
+            opacity: .7;
+            padding: 5px 15px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pavlo\/Desktop\/filmsApp\/my-app\/src\/resources\/scss\/styles\.scss}line{font-family:\00003117}}
+          body #root .App .series .GOT .gotInfo .gotInfo_seasons, html #root .App .series .GOT .gotInfo .gotInfo_seasons {
+            font-size: 12px;
+            padding: 0 15px;
+            color: #ffef02;
+            opacity: .5;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pavlo\/Desktop\/filmsApp\/my-app\/src\/resources\/scss\/styles\.scss}line{font-family:\00003124}}
+          body #root .App .series .GOT .gotInfo .gotInfo_episodes, html #root .App .series .GOT .gotInfo .gotInfo_episodes {
+            font-size: 12px;
+            padding: 0 15px;
+            color: #fff; }
+
+@media only screen and (max-width: 639px) and (min-width: 320px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pavlo\/Desktop\/filmsApp\/my-app\/src\/resources\/scss\/styles\.scss}line{font-family:\00003136}}
+  body #root .App .header-wrapper header .sideMenu-Toolbar .main-header-wrapper, html #root .App .header-wrapper header .sideMenu-Toolbar .main-header-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pavlo\/Desktop\/filmsApp\/my-app\/src\/resources\/scss\/styles\.scss}line{font-family:\00003140}}
+  body #root .App .header-wrapper header .sideMenu-Toolbar .sideMenu_icon-wrapper, html #root .App .header-wrapper header .sideMenu-Toolbar .sideMenu_icon-wrapper {
+    display: block; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pavlo\/Desktop\/filmsApp\/my-app\/src\/resources\/scss\/styles\.scss}line{font-family:\00003143}}
+  body #root .App .header-wrapper header .sideMenu-Toolbar .button-login-register_button-wrapper, html #root .App .header-wrapper header .sideMenu-Toolbar .button-login-register_button-wrapper {
+    display: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pavlo\/Desktop\/filmsApp\/my-app\/src\/resources\/scss\/styles\.scss}line{font-family:\00003146}}
+  body #root .App .header-wrapper header .sideMenu-Toolbar .input-search_icon-wrapper, html #root .App .header-wrapper header .sideMenu-Toolbar .input-search_icon-wrapper {
+    display: none; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pavlo\/Desktop\/filmsApp\/my-app\/src\/resources\/scss\/styles\.scss}line{font-family:\00003151}}
+.GOT:hover {
+  cursor: pointer;
+  -webkit-transform: translate(0, 5px);
+          transform: translate(0, 5px); }
