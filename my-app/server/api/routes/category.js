@@ -1,11 +1,11 @@
-const express = require('express');
+const express = require('express')
 //import express from 'express';
-const controller = require('../controllers/category');
-
+const controller = require('../controllers/category')
+const passport = require('passport')
 const router = express.Router()
 
 
-router.get('/', controller.getAll)
+router.get('/', passport.authenticate('jwt', {session: false}), controller.getAll)
 router.get('/:id', controller.getbyId)
 router.delete('/:id', controller.remove)
 router.post('/', controller.create)

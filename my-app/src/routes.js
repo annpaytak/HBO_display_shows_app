@@ -2,7 +2,7 @@ import React  from 'react';
 import Layout from './Hoc/layout.jsx';
 
 import { Switch, Route} from 'react-router-dom';
-
+import Login from '../src/containers/login'
 
 const Routes = () => {
   return(
